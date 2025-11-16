@@ -1,0 +1,28 @@
+# YOLOv8 Data Configuration for LDXray Dataset (Vertical View A)
+
+# Path to the root of the dataset structure
+path: LDXray
+
+# Training and Validation image directories (relative to the 'path' above)
+# The directories should point to the folders that contain "images/" and "labels/"
+train: dataset/train_A/images
+val: dataset/val_A/images
+test: dataset/test_A
+
+# Number of classes
+nc: 12
+
+# Class names (in YOLO order)
+names:
+  0: phone
+  1: orange_liquid
+  2: non_battery_charger
+  3: laptop
+  4: green_liquid
+  5: battery_charger
+  6: tablet
+  7: blue_liquid
+  8: cylindrical_orange_liquid
+  9: non_metal_lighter
+  10: umbrella
+  11: cylindrical_green_liquid
