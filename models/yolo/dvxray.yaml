@@ -1,0 +1,24 @@
+# dvxray.yaml
+
+# Paths (Assuming you run the training script from the project root)
+path: ../../data/processed/yolo  # dataset root dir
+train: images/train          # train images (relative to 'path')
+val: images/val              # val images (relative to 'path')
+
+# Classes
+names:
+  0: Gun
+  1: Knife
+  2: Wrench
+  3: Pliers
+  4: Scissors
+  5: Lighter
+  6: Battery
+  7: Bat
+  8: Razor_blade
+  9: Saw_blade
+  10: Fireworks
+  11: Hammer
+  12: Screwdriver
+  13: Dart
+  14: Pressure_vessel
