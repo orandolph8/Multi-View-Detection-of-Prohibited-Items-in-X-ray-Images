@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a deep learning–based computer vision project for **automated detection of prohibited items in X-ray baggage images**. The system combines multi-label classification, object detection, and **dual-view (multi-view) fusion** to improve detection reliability in cluttered security screening environments.
 
-The project demonstrates how leveraging **orthogonal X-ray views** significantly increases recall for occluded or ambiguous threat items.
+The project demonstrates how leveraging **orthogonal X-ray views** significantly increases accuracy for occluded or ambiguous threat items.
 
 ---
 
